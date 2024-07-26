@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(14, 14, 100);
+    color: white;
+}
+
+.section-1 {
+    background-color: white;
+}
+
+.section-2 {
+    background-color: grey;
+}
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(14, 14, 100);
+}
+
+#flex-box {
+    display: flex;
+    gap: 1rem;
+}
+
+#flex-img {
+    width: 50%;
+    height: 40%;
+}
+
+#blue-box {
+    background-color: blue;
+    width: 50%;S
+}
