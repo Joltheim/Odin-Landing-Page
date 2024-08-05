@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     text-align: center;
     margin: 0 auto;
@@ -29,9 +33,10 @@ button {
 
 #header-flexbox-1{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem;
-    margin: 0 17%;
+    gap: 400px;
+    margin-left: 50px;
 }
 
 #header-text{
@@ -41,13 +46,14 @@ button {
 #header-flexbox-2{
     display:flex;
     justify-content: center;
-    padding: 3rem;
-    gap: 5%;
+    padding: 2rem;
+    gap: 50px;
     width: 60%;
     margin: 0 15% 0 15%;
 }
 
 #header-nav{
+    padding-right: 10%;
     margin-top: 1.7rem;
     display: flex;
     gap: 20px;
