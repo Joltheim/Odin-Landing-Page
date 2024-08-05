@@ -3,6 +3,24 @@ body {
     margin: 0 auto;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover, button:hover {
+    color: blue;
+}
+
+button {
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -13,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    margin: 0 20%;
+    margin: 0 17%;
 }
 
 #header-text{
@@ -26,8 +44,15 @@ body {
     padding: 3rem;
     gap: 5%;
     width: 60%;
-    margin: auto;
+    margin: 0 15% 0 15%;
 }
+
+#header-nav{
+    margin-top: 1.7rem;
+    display: flex;
+    gap: 20px;
+}
+
 
 img {
     height: 250px;
@@ -35,48 +60,70 @@ img {
 }
 
 .section-1 {
+    padding-top: 1rem;
     background-color: white;
 }
 
+#section-1-flexbox {
+    margin: 3rem 0%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+#flex-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
 .section-2 {
-    background-color: grey;
-    padding: 5%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color:#1f2937;
+    padding: 2rem;
+}
+
+#section-2-quote{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+#section-2-signature{
+    text-align: right;
+    padding-right: 3rem;
 }
 
 .section-3 {
+    color: white;
     display: flex;
     justify-content: center;
     padding: 3rem;
+    text-align: left;
+}
+
+#blue-box {
+    background-color: #3882F6;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    border-radius: 10px;
+    padding: 1rem 10%;
+}
+
+#blue-box-btn{
+    margin-top: 30%;
+    border: 2px solid white;
 }
 
 .footer {
     background-color: #1F2937;
     color: white;
+    padding: 1rem;
 }
 
-#section-1-flexbox {
-    display: flex;
-    justify-content: center;
-}
 
-#flex-img {
-    width: 50%;
-    height: 50%;
-    border: 5px solid rgb(57, 57, 179);
-    
-}
-
-#blue-box {
-    background-color: blue;
-    width: 50%;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-
-a:hover {
-    color: blue;
-}
